@@ -4,7 +4,9 @@ by Jake Herman
 
 A script that downloads music from archive.org pages
 
-***DESCRIPTION:  ***
+***DESCRIPTION***
+
+
 This script consumes a list of archive.org music page URLs from argv or a JSON file
 and downloads all of the music from the from those pages. It can download music from
 normal archive.org music pages and those that are "stream only". The music will be
@@ -16,16 +18,20 @@ and potentially illegal!!! This script was created purely as an intellectual exe
 and is being shared publicly with intent to only be a portfolio item. Do not use this script
 for unethical purposes!
 
-***REQUIREMENTS:  ***
+***REQUIREMENTS***
+
+
 - nodejs v14.15.4 (other versions may also work)
 - npm 6.14.2 (other versions may also work)
 
-***INSTALLATION:  ***
+***INSTALLATION***
 >cd < project root directory >
 
 >npm install
 
-***USAGE:  ***
+***USAGE***
+
+
 Every command in this section is executed from the package root directory.
 
 Display command line help:
