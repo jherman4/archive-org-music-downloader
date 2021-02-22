@@ -35,16 +35,16 @@ for unethical purposes!
 Every command in this section is executed from the package root directory.
 
 Display command line help:
-./get-music-from-page.js -h
+>./get-music-from-page.js -h
 
 Note: --dest is a required argument that is the relative path to a folder in which to download the 
 music files to.
 
 Get music from a list of page passed to command line:
-./get-music-from-page.js --dest <dest dir> --queue <url #1> <url #2> ... <url #N>
+>./get-music-from-page.js --dest <dest dir> --queue <url #1> <url #2> ... <url #N>
 
 Get music from a JSON file that holds an array of url strings:
-./get-music-from-page.js --dest <dest dir> --queue-json-file <relative path to json file>
+>./get-music-from-page.js --dest <dest dir> --queue-json-file <relative path to json file>
 
 ***ADDITIONAL CONSIDERATIONS:   ***
 This script is not hardened to all possible music file names. Special charecters can and do
