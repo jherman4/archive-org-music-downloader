@@ -50,6 +50,6 @@ Get music from a JSON file that holds an array of url strings:
 
 
 This script is not hardened to all possible music file names. Special charecters can and do
-cause problems when trying to save the file to the file system. Starting on line 76 of there
-are some statements that take care of some common special charecters. If you want to make a mod
-for new problems you may encounter this would be the place to do it.
+cause problems when trying to save the file to the file system. Starting on line 76 of 
+get-music-from-pages.js there are some statements that take care of some common special charecters.
+If you want to make a modfor new problems you may encounter this would be the place to do it.
