@@ -1,0 +1,21 @@
+{
+  "name": "archive-org-music-downloader",
+  "version": "1.0.0",
+  "description": "A script that downloads music from archive.org pages",
+  "main": "get-music-from-page.js",
+  "scripts": {
+    "main": "node get-music-from-page.js"
+  },
+  "keywords": [
+    "archive.org",
+    "music",
+    "web-scraper"
+  ],
+  "author": "Jacob Herman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "puppeteer": "^7.1.0",
+    "yargs": "^16.2.0"
+  }
+}
